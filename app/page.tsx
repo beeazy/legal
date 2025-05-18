@@ -7,7 +7,7 @@ export default function Home() {
       <div className="flex flex-col items-center w-full max-w-md px-4 py-12">
         <div className="mb-8">
           <Image
-            src="/icon.png" // Place your app icon in public/icon.png
+            src="/icon.png" 
             alt="T✓ App Icon"
             width={128}
             height={128}
@@ -32,6 +32,27 @@ export default function Home() {
           <span>|</span>
           <Link href="/privacy-policy" className="hover:underline">Privacy Policy</Link>
         </div>
+      </div>
+      <div className="mt-10 text-center text-xs text-gray-500">
+        Inspired by the dead simple todo list app by{' '}
+        <a
+          href="https://x.com/joshuawolk?lang=en"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-green-400 hover:underline"
+        >
+          @joshuawolk
+        </a>
+        {' '}(
+        <a
+          href="https://todocli.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-green-400 hover:underline"
+        >
+          todocli.vercel.app
+        </a>
+        ).
       </div>
     </main>
   );
