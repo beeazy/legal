@@ -15,7 +15,7 @@ export default function Home() {
             priority
           />
         </div>
-        <h1 className="text-5xl font-bold text-green-400 mb-2 tracking-tight">T<span >✓</span></h1>
+        {/* <h1 className="text-5xl font-bold text-green-400 mb-2 tracking-tight">T<span >✓</span></h1> */}
         <h2 className="text-xl text-green-300 mb-6">Terminal-inspired Task Manager</h2>
         <p className="text-gray-300 text-center mb-8">
           Organize your tasks with a retro terminal look.<br />
