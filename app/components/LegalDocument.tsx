@@ -15,7 +15,7 @@ export function LegalDocument({ document }: LegalDocumentProps) {
           <h2 className="text-xl font-semibold mb-4">{section.title}</h2>
           <div className="space-y-2">
             {section.content.map((paragraph, pIndex) => (
-              <p key={pIndex} className="text-gray-700">
+              <p key={pIndex} className="text-gray-300">
                 {paragraph}
               </p>
             ))}

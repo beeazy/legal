@@ -9,7 +9,7 @@ export interface LegalDocument {
 
 export const PRIVACY_POLICY: LegalDocument = {
   title: 'Privacy Policy',
-  lastUpdated: new Date().toLocaleDateString(),
+  lastUpdated: 'May 19, 2025',
   sections: [
     {
       title: 'Information We Collect',
@@ -61,7 +61,7 @@ export const PRIVACY_POLICY: LegalDocument = {
 
 export const TERMS_OF_SERVICE: LegalDocument = {
   title: 'Terms of Service',
-  lastUpdated: new Date().toLocaleDateString(),
+  lastUpdated: 'May 19, 2025',
   sections: [
     {
       title: 'Acceptance of Terms',
@@ -86,9 +86,9 @@ export const TERMS_OF_SERVICE: LegalDocument = {
     {
       title: 'Pro Features',
       content: [
-        'Premium features are available through in-app purchase',
-        'Subscription terms and pricing are subject to change',
-        'Refunds are subject to platform policies'
+        'Pro features are not yet available. The developer may or may not implement premium features in the future, and there is no guarantee that such features will be released.',
+        'If premium features are introduced, they may be available through in-app purchase. Subscription terms and pricing would be subject to change.',
+        'Refunds would be subject to platform policies.'
       ]
     },
     {

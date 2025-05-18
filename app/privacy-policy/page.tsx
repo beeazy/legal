@@ -3,7 +3,7 @@ import { LegalDocument } from '../components/LegalDocument';
 
 export default function PrivacyPolicy() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-background">
       <LegalDocument document={PRIVACY_POLICY} />
     </div>
   );
