@@ -37,7 +37,7 @@ export default function Home() {
             />
           </a>
           <Link
-            href="https://t-check--ysjsq05hm3.expo.app"
+            href="https://t-check.expo.app"
             target="_blank"
             rel="noopener noreferrer"
             className="text-green-400 hover:text-green-300 text-sm flex items-center gap-4 my-4"
