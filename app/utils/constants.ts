@@ -15,17 +15,13 @@ export const PRIVACY_POLICY: LegalDocument = {
       title: 'Information We Collect',
       content: [
         'T✓ collects minimal data necessary for app functionality:',
-        'Tasks and their metadata (text, completion status, priority)',
-        'App preferences (theme, tab organization)',
-        'Analytics data for app improvement'
       ]
     },
     {
       title: 'How We Use Your Information',
       content: [
         'To provide and maintain the app\'s functionality',
-        'To improve user experience',
-        'To analyze app usage patterns'
+        'To improve user experience'
       ]
     },
     {
@@ -40,7 +36,6 @@ export const PRIVACY_POLICY: LegalDocument = {
       title: 'Your Rights',
       content: [
         'You can delete all app data by uninstalling the app',
-        'You can export your tasks (coming soon)',
         'You can manage app permissions through your device settings'
       ]
     },
@@ -86,9 +81,7 @@ export const TERMS_OF_SERVICE: LegalDocument = {
     {
       title: 'Pro Features',
       content: [
-        'Pro features are not yet available. The developer may or may not implement premium features in the future, and there is no guarantee that such features will be released.',
-        'If premium features are introduced, they may be available through in-app purchase. Subscription terms and pricing would be subject to change.',
-        'Refunds would be subject to platform policies.'
+        'There are currently no premium features available.'
       ]
     },
     {
@@ -116,4 +109,4 @@ export const TERMS_OF_SERVICE: LegalDocument = {
       ]
     }
   ]
-}; 
+};

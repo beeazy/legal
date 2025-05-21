@@ -21,12 +21,34 @@ export default function Home() {
           Organize your tasks with a retro terminal look.<br />
           Minimal, fast, and focused on productivity.
         </p>
-        {/* <Link
-          href="/main" // Change to your main app route
-          className="bg-green-400 hover:bg-green-300 text-black font-bold py-3 px-8 rounded transition-colors text-lg shadow-md mb-8"
-        >
-          Get Started
-        </Link> */}
+        <div className="flex flex-col items-center gap-4">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.goodworkevans.TODOCLI"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="my-4"
+          >
+            <Image
+              src="/badge.png"
+              alt="Get it on Google Play"
+              width={162}
+              height={64}
+              priority
+            />
+          </a>
+          <Link
+            href="https://t-check--ysjsq05hm3.expo.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-green-400 hover:text-green-300 text-sm flex items-center gap-4 my-4"
+          >
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+            </svg>
+            Try Web Version
+          </Link>
+        </div>
+
         <div className="flex gap-6 text-sm text-green-400 mt-4">
           <Link href="/terms-of-service" className="hover:underline">Terms of Service</Link>
           <span>|</span>
